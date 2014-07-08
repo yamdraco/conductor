@@ -19,6 +19,20 @@
 		C0B85958196BB414005EB028 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B85940196BB414005EB028 /* UIKit.framework */; };
 		C0B85960196BB414005EB028 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0B8595E196BB414005EB028 /* InfoPlist.strings */; };
 		C0B85962196BB414005EB028 /* ConductorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85961196BB414005EB028 /* ConductorTests.m */; };
+		C0B85976196BCBDA005EB028 /* Conductor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8596D196BCBDA005EB028 /* Conductor.m */; };
+		C0B85977196BCBDA005EB028 /* Conductor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8596D196BCBDA005EB028 /* Conductor.m */; };
+		C0B85978196BCBDA005EB028 /* ConductorSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8596F196BCBDA005EB028 /* ConductorSegue.m */; };
+		C0B85979196BCBDA005EB028 /* ConductorSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8596F196BCBDA005EB028 /* ConductorSegue.m */; };
+		C0B85989196BCF24005EB028 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85988196BCF24005EB028 /* RootController.m */; };
+		C0B8598A196BCF24005EB028 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85988196BCF24005EB028 /* RootController.m */; };
+		C0B8598D196BCF95005EB028 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8598C196BCF95005EB028 /* AViewController.m */; };
+		C0B8598E196BCF95005EB028 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8598C196BCF95005EB028 /* AViewController.m */; };
+		C0B85991196BCF9E005EB028 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85990196BCF9E005EB028 /* BViewController.m */; };
+		C0B85992196BCF9E005EB028 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85990196BCF9E005EB028 /* BViewController.m */; };
+		C0B85998196BEAC1005EB028 /* SegueToLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85995196BEAC1005EB028 /* SegueToLeft.m */; };
+		C0B85999196BEAC1005EB028 /* SegueToLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85995196BEAC1005EB028 /* SegueToLeft.m */; };
+		C0B8599A196BEAC1005EB028 /* SegueToRight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85997196BEAC1005EB028 /* SegueToRight.m */; };
+		C0B8599B196BEAC1005EB028 /* SegueToRight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B85997196BEAC1005EB028 /* SegueToRight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,21 @@
 		C0B8595D196BB414005EB028 /* ConductorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConductorTests-Info.plist"; sourceTree = "<group>"; };
 		C0B8595F196BB414005EB028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0B85961196BB414005EB028 /* ConductorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConductorTests.m; sourceTree = "<group>"; };
+		C0B8596C196BCBDA005EB028 /* Conductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conductor.h; sourceTree = "<group>"; };
+		C0B8596D196BCBDA005EB028 /* Conductor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conductor.m; sourceTree = "<group>"; };
+		C0B8596E196BCBDA005EB028 /* ConductorSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConductorSegue.h; sourceTree = "<group>"; };
+		C0B8596F196BCBDA005EB028 /* ConductorSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConductorSegue.m; sourceTree = "<group>"; };
+		C0B85975196BCBDA005EB028 /* UIViewController+Conductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Conductor.h"; sourceTree = "<group>"; };
+		C0B85987196BCF24005EB028 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		C0B85988196BCF24005EB028 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		C0B8598B196BCF95005EB028 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		C0B8598C196BCF95005EB028 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		C0B8598F196BCF9E005EB028 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		C0B85990196BCF9E005EB028 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		C0B85994196BEAC1005EB028 /* SegueToLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueToLeft.h; sourceTree = "<group>"; };
+		C0B85995196BEAC1005EB028 /* SegueToLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueToLeft.m; sourceTree = "<group>"; };
+		C0B85996196BEAC1005EB028 /* SegueToRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueToRight.h; sourceTree = "<group>"; };
+		C0B85997196BEAC1005EB028 /* SegueToRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueToRight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +106,8 @@
 		C0B85930196BB414005EB028 = {
 			isa = PBXGroup;
 			children = (
+				C0B8597E196BCDF5005EB028 /* Controllers */,
+				C0B8596B196BCBDA005EB028 /* lib */,
 				C0B85942196BB414005EB028 /* Conductor */,
 				C0B8595B196BB414005EB028 /* ConductorTests */,
 				C0B8593B196BB414005EB028 /* Frameworks */,
@@ -142,6 +173,44 @@
 				C0B8595E196BB414005EB028 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0B8596B196BCBDA005EB028 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C0B85993196BEAC1005EB028 /* segue */,
+				C0B8596C196BCBDA005EB028 /* Conductor.h */,
+				C0B8596D196BCBDA005EB028 /* Conductor.m */,
+				C0B8596E196BCBDA005EB028 /* ConductorSegue.h */,
+				C0B8596F196BCBDA005EB028 /* ConductorSegue.m */,
+				C0B85975196BCBDA005EB028 /* UIViewController+Conductor.h */,
+			);
+			name = lib;
+			path = Conductor/lib;
+			sourceTree = "<group>";
+		};
+		C0B8597E196BCDF5005EB028 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0B85987196BCF24005EB028 /* RootController.h */,
+				C0B85988196BCF24005EB028 /* RootController.m */,
+				C0B8598B196BCF95005EB028 /* AViewController.h */,
+				C0B8598C196BCF95005EB028 /* AViewController.m */,
+				C0B8598F196BCF9E005EB028 /* BViewController.h */,
+				C0B85990196BCF9E005EB028 /* BViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C0B85993196BEAC1005EB028 /* segue */ = {
+			isa = PBXGroup;
+			children = (
+				C0B85994196BEAC1005EB028 /* SegueToLeft.h */,
+				C0B85995196BEAC1005EB028 /* SegueToLeft.m */,
+				C0B85996196BEAC1005EB028 /* SegueToRight.h */,
+				C0B85997196BEAC1005EB028 /* SegueToRight.m */,
+			);
+			path = segue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B8594D196BB414005EB028 /* AppDelegate.m in Sources */,
+				C0B8599A196BEAC1005EB028 /* SegueToRight.m in Sources */,
+				C0B85989196BCF24005EB028 /* RootController.m in Sources */,
+				C0B85978196BCBDA005EB028 /* ConductorSegue.m in Sources */,
+				C0B85991196BCF9E005EB028 /* BViewController.m in Sources */,
+				C0B8598D196BCF95005EB028 /* AViewController.m in Sources */,
+				C0B85976196BCBDA005EB028 /* Conductor.m in Sources */,
 				C0B85949196BB414005EB028 /* main.m in Sources */,
+				C0B85998196BEAC1005EB028 /* SegueToLeft.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +323,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B85979196BCBDA005EB028 /* ConductorSegue.m in Sources */,
+				C0B8598E196BCF95005EB028 /* AViewController.m in Sources */,
+				C0B85999196BEAC1005EB028 /* SegueToLeft.m in Sources */,
+				C0B8599B196BEAC1005EB028 /* SegueToRight.m in Sources */,
 				C0B85962196BB414005EB028 /* ConductorTests.m in Sources */,
+				C0B8598A196BCF24005EB028 /* RootController.m in Sources */,
+				C0B85992196BCF9E005EB028 /* BViewController.m in Sources */,
+				C0B85977196BCBDA005EB028 /* Conductor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +519,7 @@
 				C0B85967196BB414005EB028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0B85968196BB414005EB028 /* Build configuration list for PBXNativeTarget "ConductorTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +528,7 @@
 				C0B8596A196BB414005EB028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

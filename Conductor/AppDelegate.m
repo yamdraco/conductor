@@ -8,19 +8,36 @@
 
 #import "AppDelegate.h"
 
+// Controller
+#import "RootController.h"
+#import "AViewController.h"
+#import "BViewController.h"
+
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+@synthesize conductor;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  // Override point for customization after application launch.
+  self.window.backgroundColor = [UIColor whiteColor];
+  [self.window makeKeyAndVisible];
+  RootController *root = [[RootController alloc]init];
+  self.window.rootViewController = root;
+  
+  
+  conductor = [[Conductor alloc]init];
+  conductor.rootCtr = root;
+  
+  AViewController *firstController = [[AViewController alloc]init];
+  [root.view addSubview:firstController.view];
+  [conductor push:firstController withKey:@"start"];
+  
+  
+  return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
-{
+- (void)applicationWillResignActive:(UIApplication *)application {
   // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
   // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
