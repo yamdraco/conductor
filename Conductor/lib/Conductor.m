@@ -27,7 +27,7 @@
 }
 
 - (void) push:(UIViewController*)vctr withKey:(NSString*)key {
-  [ctrStack addObject:@{key:vctr}];
+  [ctrStack addObject:@{@"key":key, @"controller":vctr}];
 }
 
 - (UIViewController*) pop {
@@ -37,7 +37,7 @@
 }
 
 - (UIViewController*) last {
-  return ([ctrStack count] > 0) ? [[ctrStack lastObject] allValues][0] : nil;
+  return ([ctrStack count] > 0) ? [ctrStack lastObject][@"controller"] : nil;
 }
 
 #pragma mark -
