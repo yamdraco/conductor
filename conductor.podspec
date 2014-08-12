@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "conductor"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "Conductor for managing uiviewcontrollers instead of using story board"
 
   s.homepage     = "https://github.com/yamdraco/conductor"
   s.license      = { :type => "MIT" }
   s.author       = { "Draco Yam" => "yamdraco@yahoo.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/yamdraco/conductor.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/yamdraco/conductor.git", :tag => "0.1.0" }
 
   s.source_files  = "Conductor/lib/*.{h,m}", "Conductor/lib/segue/*.{h,m}"
   s.requires_arc = true

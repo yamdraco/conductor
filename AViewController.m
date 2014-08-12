@@ -13,6 +13,8 @@
 #import "AppDelegate.h"
 
 #import "SegueToLeft.h"
+#import "SegueToDrop.h"
+#import "SegueToTop.h"
 
 #import "BViewController.h"
 
@@ -32,7 +34,7 @@
 - (void) switchToSecond {
   AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
   NSLog(@"Stack Count Before, %d", [appDelegate.conductor.ctrStack count]);
-  [appDelegate.conductor addCtr:[[BViewController alloc]init] withKey:@"bControl" withSegue:[[SegueToLeft alloc]init]];
+  [appDelegate.conductor addCtr:[[BViewController alloc]init] withKey:@"bControl" withSegue:[[SegueToTop alloc]init]];
   NSLog(@"Stack Count After, %d", [appDelegate.conductor.ctrStack count]);
 }
 

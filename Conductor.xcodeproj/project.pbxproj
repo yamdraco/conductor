@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00D92EF1999C0FA0024D238 /* SegueToTop.m in Sources */ = {isa = PBXBuildFile; fileRef = C00D92EE1999C0FA0024D238 /* SegueToTop.m */; };
+		C00D92F21999C10E0024D238 /* SegueToDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = C00D92F11999C10E0024D238 /* SegueToDrop.m */; };
 		C0B8593D196BB414005EB028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B8593C196BB414005EB028 /* Foundation.framework */; };
 		C0B8593F196BB414005EB028 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B8593E196BB414005EB028 /* CoreGraphics.framework */; };
 		C0B85941196BB414005EB028 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B85940196BB414005EB028 /* UIKit.framework */; };
@@ -46,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C00D92ED1999C0FA0024D238 /* SegueToTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueToTop.h; sourceTree = "<group>"; };
+		C00D92EE1999C0FA0024D238 /* SegueToTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueToTop.m; sourceTree = "<group>"; };
+		C00D92F01999C10E0024D238 /* SegueToDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueToDrop.h; sourceTree = "<group>"; };
+		C00D92F11999C10E0024D238 /* SegueToDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueToDrop.m; sourceTree = "<group>"; };
 		C0B85939196BB414005EB028 /* Conductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B8593C196BB414005EB028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0B8593E196BB414005EB028 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -209,6 +215,10 @@
 				C0B85995196BEAC1005EB028 /* SegueToLeft.m */,
 				C0B85996196BEAC1005EB028 /* SegueToRight.h */,
 				C0B85997196BEAC1005EB028 /* SegueToRight.m */,
+				C00D92ED1999C0FA0024D238 /* SegueToTop.h */,
+				C00D92EE1999C0FA0024D238 /* SegueToTop.m */,
+				C00D92F01999C10E0024D238 /* SegueToDrop.h */,
+				C00D92F11999C10E0024D238 /* SegueToDrop.m */,
 			);
 			path = segue;
 			sourceTree = "<group>";
@@ -309,7 +319,9 @@
 			files = (
 				C0B8594D196BB414005EB028 /* AppDelegate.m in Sources */,
 				C0B8599A196BEAC1005EB028 /* SegueToRight.m in Sources */,
+				C00D92EF1999C0FA0024D238 /* SegueToTop.m in Sources */,
 				C0B85989196BCF24005EB028 /* RootController.m in Sources */,
+				C00D92F21999C10E0024D238 /* SegueToDrop.m in Sources */,
 				C0B85978196BCBDA005EB028 /* ConductorSegue.m in Sources */,
 				C0B85991196BCF9E005EB028 /* BViewController.m in Sources */,
 				C0B8598D196BCF95005EB028 /* AViewController.m in Sources */,
